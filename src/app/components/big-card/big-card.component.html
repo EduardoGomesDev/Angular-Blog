@@ -1,14 +1,16 @@
 <div class="container__big-card">
     <div class="big-card__photo">
         <img 
-            src="https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/q/o/p/small-poster-armor-iron-man-robots-the-avengers-movie-tony-stark-original-imaghusjfagmk9py.jpeg?q=90&crop=false" 
+            src="{{ photoCover }}" 
             alt="" 
-            height="200px"        >
+            height="200px">
     </div>
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versõa do Angular.</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
     <div class="big-card__description">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex ullam vero deleniti ducimus inventore rerum aut velit sed accusamus distinctio, dolorum nobis illo omnis aspernatur consequuntur dolor, fuga mollitia quod.</p>
+        <p>
+            {{ cardDescription }}
+        </p>
     </div>
 </div>
